@@ -16,6 +16,8 @@ header {
 
 footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .container-1 {
@@ -25,10 +27,18 @@ footer {
 }
 
 .container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 144px 96px;
+    gap: 32px;
 }
 
 .container-3 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 144px;
 }
 
 .container-4 {
@@ -71,4 +81,34 @@ a {
 
 img {
     color: #E5E7EB;
+}
+
+.smaller-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.images {
+    display: flex;
+    gap: 32px;
+}
+
+.image-and-subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote-text {
+    color:#1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-author {
+    font-weight: 700;
+    align-self: flex-end;
 }
